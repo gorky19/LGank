@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/web"
+        android:icon="@drawable/web_icons"
+        android:title="前端"
+        />
+    <item
+        android:id="@+id/xia_tuijian"
+        android:icon="@drawable/xiatuijian"
+        android:title="瞎推荐"
+        />
+    <item
+        android:id="@+id/app_demo"
+        android:icon="@drawable/app"
+        android:title="APP"
+        />
+    <item
+        android:id="@+id/tuozhan"
+        android:icon="@drawable/touzhan"
+        android:title="拓展资源"
+        />
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/video_icons"
+        android:title="休息视频"
+        />
+    <item
+        android:id="@+id/qie_color"
+        android:icon="@drawable/qie_color"
+        android:title="切换主题"
+        />
+</menu>

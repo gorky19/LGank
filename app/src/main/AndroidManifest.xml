@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zhangtao.bwie.com.lgank">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Two_activity"
+            android:launchMode="singleTask"
+            />
+        <activity android:name=".XiangQing_act"/>
+        <activity android:name=".HomeSelectActivity"/>
+        <activity android:name=".ThemeAct"/>
+        <activity android:name=".QianDaun"/>
+        <activity android:name=".PhoneActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            />
+        <activity android:name=".Xia_act"/>
+        <activity android:name=".App_act"/>
+        <activity android:name=".Tuo_act"/>
+        <activity android:name=".Video_act"/>
+        <activity android:name=".PhoneActivity2"
+            />
+    </application>
+
+</manifest>

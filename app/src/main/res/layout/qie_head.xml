@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+  <Button
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:background="#f2efef"
+      android:text="从相册获取"
+      android:textColor="#000"
+      android:textSize="18sp"
+      android:id="@+id/pick"
+      />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f2efef"
+        android:text="相机"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/photo"
+        android:layout_below="@+id/pick"
+        />
+  <Button
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:background="#f2efef"
+      android:text="取消"
+      android:textColor="#000"
+      android:textSize="18sp"
+      android:layout_marginTop="6dp"
+      android:id="@+id/canale"
+      android:layout_below="@+id/photo"
+      />
+</RelativeLayout>

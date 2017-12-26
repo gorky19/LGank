@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#e2d70a"
+    android:id="@+id/toolbar"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tool_text"
+            android:text="LGank"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="35dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/quest_img"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/wen_quest"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="75dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/panpen_img"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/panpen"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+</RelativeLayout>

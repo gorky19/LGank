@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#e2d70a"
+        android:id="@+id/toolbar"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/back_while"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/img_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="LGank"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="55dp"
+            />
+    </RelativeLayout>
+    <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/pull_qianduan"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web_recy"
+        ></android.support.v7.widget.RecyclerView>
+    </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+</RelativeLayout>

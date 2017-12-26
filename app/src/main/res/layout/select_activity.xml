@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        >
+
+        <ImageView
+            android:id="@+id/home_search_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/back_while" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/home_search_image"
+            android:hint="请输入搜索内容"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="5dp"
+            android:drawableLeft="@drawable/web_select"
+            android:background="@drawable/select_shape"
+            android:id="@+id/home_search_edit"
+            />
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/select_xiao_icons"
+            android:background="@drawable/qingchu"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_alignTop="@+id/home_search_text"
+            android:layout_toStartOf="@+id/home_search_text" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_search_text"
+            android:text="搜索"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/home_search_edit"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/select_big"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="热搜"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <FlowLayout.flowlayout
+                android:id="@+id/id_flowlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/f1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="RxJava"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="RxAndroid"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="数据库"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="自定义控件"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="MVP"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="OkHttp"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="热修复"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/f8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/flow_text"
+                    android:padding="10dp"
+                    android:text="Retrofit"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+            </FlowLayout.flowlayout>
+
+            <TextView
+                android:id="@+id/lishi1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#ddd" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/lishi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="历史搜索"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:id="@+id/lishi_clear"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/delete"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/lishi3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ddd" />
+
+            <zhangtao.bwie.com.lgank.My_Recy
+                android:id="@+id/lishi_recy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></zhangtao.bwie.com.lgank.My_Recy>
+        </LinearLayout>
+    </ScrollView>
+    <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/select_pull"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_recy"
+            ></android.support.v7.widget.RecyclerView>
+    </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+</LinearLayout>

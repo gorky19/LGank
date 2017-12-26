@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/fuli_icons"
+        fresco:placeholderImage="@drawable/unfind"
+        fresco:roundedCornerRadius="15dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        fresco:progressBarImage="@drawable/load_img"
+        fresco:progressBarAutoRotateInterval="5000"
+        fresco:progressBarImageScaleType="centerInside"
+        />
+</RelativeLayout>
